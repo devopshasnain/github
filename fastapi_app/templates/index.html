@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FastAPI Frontend + Backend</title>
+</head>
+<body>
+    <h1>FastAPI Full Stack Example</h1>
+
+    <form action="/process" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="username" required />
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if message %}
+    <h2 style="color: green;">{{ message }}</h2>
+    {% endif %}
+</body>
+</html>
+
