@@ -9,3 +9,5 @@ def name2():
     prin
 
     t("hello world new")
+def name():
+    print("hasnian")
